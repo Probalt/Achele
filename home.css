@@ -1,0 +1,13 @@
+html > body {
+  background-color: rgb(230, 230, 230);
+  font-family: 'Heebo', sans-serif;
+}
+
+.home-image {
+  background-size: cover; 
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 100vh;
+  width: 100vw;
+}
