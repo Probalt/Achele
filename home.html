@@ -5,25 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Achele</title>
-  <link rel="stylesheet" href="stylesheet.css">
   <link rel="icon" href="">
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Poppins|Sen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Sen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="home.css">
-  <link rel="icon" href="TOBEMODIFIED!!!!!!!">
+  <link rel="icon" href="./images/just-logo.png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
   <div id="home" style="background-image: url(./images/home.jpg);">
     <div id="home-content">
-      <div id="logo">
+      <div id="logo" data-aos="zoom-in" data-aos-duration="1000">
         <img src="./images/logo-blanc-zoom.png" alt="achele-logo">
       </div>
       <div id="valeurs">
-        <p class="mb-4">Précision</p>
-        <p class="mb-4">Ouverture</p>
-        <p class="mb-4">Bienveillance</p>
+        <p class="mb-4" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">Précision</p>
+        <p class="mb-4" data-aos="fade-right" data-aos-delay="2000" data-aos-duration="1000">Ouverture</p>
+        <p class="mb-4" data-aos="fade-right" data-aos-delay="3000" data-aos-duration="1000">Bienveillance</p>
       </div>
     </div>
     <div id="scroll" class="demo">
@@ -34,35 +36,101 @@
   <div id="section2">
     <div class="bloc">
       <div id="conseil">
-        <h1 class="mb-5">Conseil</h1>
-        <p>Stratégie</p>
-        <p>Situations complexes</p>
-        <p>Communication</p>
-        <p>Gouvernance</p>
-        <p>Pilotage</p>
-        <p>Fusions-Acquisitions</p>
+        <div class="container">
+          <h1 class="mb-5">Conseil</h1>
+          <div class="accordion">
+            <div class="accordion-item">
+              <a>Stratégie <div class="plus-minus-toggle collapsed"></div></a>
+              <div class="content">
+                <p>Il y en a plusieurs, elles ne se dupliquent pas et demandent un sens du contexte et du timing souvent ignoré par les marchands de benchmark.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <a>Situations complexes <div class="plus-minus-toggle collapsed"></div></a>
+              <div class="content">
+                <p>Personne ne sait d’où viendra la prochaine crise qui par construction sera une saloperie par son contenu, son ampleur, sa médiatisation. Mieux vaut avoir huilé les rouages de sa gestion avant d’entrer dans la lessiveuse.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <a>Communication <div class="plus-minus-toggle collapsed"></div></a>
+              <div class="content">
+                <p>Aucun outil ne remplace la relation, elle doit être orchestrée, soutenue, bienveillante. Seule la confiance crée le lien.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <a>Gouvernance <div class="plus-minus-toggle collapsed"></div></a>
+              <div class="content">
+                <p>L’articulation du fonctionnement de l’organe de supervision est un art, celui de la diplomatie. Il faut savoir orchestrer l’entente cordiale, maîtriser les rapports de force, organiser la répartition des rôles, retenir les stratégies les plus adaptées. Seules l’indépendance et la compétence peuvent guider la vision au long-court, doper l’efficacité, assurer le contrôle et fluidifier l’organisation des équipes.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <a>Pilotage <div class="plus-minus-toggle collapsed"></div></a>
+              <div class="content">
+                <p>L’animation des équipes, l’organisation des entités, le fonctionnement interne et le pilotage demandent autant d’implication que de sens tactique, de vision que de précision. Chacun est dépositaire de la valeur qu’il apporte.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <a>Fusions-Acquisitions <div class="plus-minus-toggle collapsed"></div></a>
+              <div class="content">
+                <p>Achèle accompagne des entreprises dans leur stratégie de capital, depuis la création, avant même les séries A, lors du financement de la croissance ou des acquisitions, jusqu’à la cession. Achèle accompagne notamment les fonds Portag3 (Fintech) et KC Invest (fonds LBO de Kepler) pour leurs investissements. L’exemple le plus emblématique est celui des sept augmentations de capital de Nickel entre 2012 et 2016 et la cession à BNP Paribas en 2017. Le premier mandat était la cession de Butterfly au groupe Henner en 2011.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div id="investissement">
-        <h1 class="mb-5">Investissement</h1>
-        <p>Fintech</p>
-        <p>Biotech</p>
-        <p>Food</p>
-        <p>Marketing & loisirs</p>
-        <p style="color: transparent;">.</p>
-        <p style="color: transparent;">.</p>
+        <div class="container">
+          <h1 class="mb-5">Investissement</h1>
+          <div class="accordion">
+            <div class="accordion-item">
+              <a>Fintech <div class="plus-minus-toggle collapsed"></div></a>
+              <div class="content">
+                <p>Nickel, Pretto, Paylead, Firmfunding, Pixpay et Portag3.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <a>Biotech <div class="plus-minus-toggle collapsed"></div></a>
+              <div class="content">
+                <p>Algotherapeutix, Skindermic, Cible.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <a>Food <div class="plus-minus-toggle collapsed"></div></a>
+              <div class="content">
+                <p> </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <a>Marketing & loisirs <div class="plus-minus-toggle collapsed"></div></a>
+              <div class="content">
+                <p>Hivency et JEM, PopChef</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <p style="cursor: default; color: transparent;">.</p>
+            </div>
+            <div class="accordion-item">
+              <p style="cursor: default; color: transparent;">.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+<!--     <div class="scroll2">
+      <a href="#section3"><span></span></a>
+    </div> -->
     <div id="prez">
       <p>Achèle (HL) est une société par actions simplifiée créée en 2010. L’entreprise, détenue à 100% par Hugues Le Bret, est aussi engagée dans le projet Wu porté par l’association Wake-up Café.</p>
     </div>
-    <div id="scroll2">
-      <a href="#section3"><span></span></a>
-    </div>
   </div>
 
-  <div id="section3">
-    blablabalab
-  </div>
-  <script src="resume.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="home.js"></script>
+  <script src="plus.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
