@@ -1,6 +1,7 @@
 const items = document.querySelectorAll(".accordion a");
 
 function toggleAccordion(){
+  $('.active').removeClass('active');
   this.classList.toggle('active');
   this.nextElementSibling.classList.toggle('active');
 }

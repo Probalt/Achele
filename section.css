@@ -1,0 +1,169 @@
+#section2 {
+  width: 65vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bloc {
+  height: 100vh;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#conseil {
+  margin-right: 50px;
+  margin-left: 50px;
+  width: 50%;
+}
+
+#prez {
+  width: 50%;
+  align-self: flex-end;
+  margin-left: 50px;
+}
+
+#prez p {
+  font-size: 1.5em;
+}
+
+#valeurs-expli {
+  font-size: 1.5em;
+  width: 60%;
+  margin-right: 90px;
+  align-self: flex-start;
+}
+
+#valeurs-expli p {
+  font-size: 18px;
+  color: rgb(70,70,70);
+}
+
+#investissement {
+  margin-left: 50px;
+  width: 40%;
+  align-self: flex-end;
+  text-align: right;
+}
+
+#investissement a {
+  padding-right: 0px; 
+}
+
+/*#section3 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.scroll2 a span {
+  position: absolute;
+  margin-left: -12px;
+  top: 190%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}*/
+
+/*.container {
+  margin: 0 auto;
+  width: 50%;
+}*/
+
+.accordion a {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  color: #8B3421;
+  font-weight: 400;
+}
+
+.accordion p a {
+  padding: 0px;
+  display: inline;
+}
+
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+}
+
+.accordion a:hover::after {
+  border: 1px solid #03b5d2;
+}
+
+.accordion a.active {
+  font-weight: bolder;
+  border-bottom: 1px solid #8B3421;
+}
+
+.accordion .content {
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all 0.2s ease 0.15s;
+  -o-transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+}
+
+.accordion .content p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.accordion .content.active {
+  opacity: 1;
+  padding: 1rem;
+  max-height: 100%;
+  -webkit-transition: all 0.35s ease 0.15s;
+  -o-transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
+}
+
+.plus-minus-toggle {
+  cursor: pointer;
+  height: 21px;
+  position: absolute;
+  width: 21px;
+  left: -30px;
+  top: 50%;
+  z-index: 2;
+}
+.plus-minus-toggle:before, .plus-minus-toggle:after {
+  background: #333;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 15px;
+  transition: transform 500ms ease;
+}
+.plus-minus-toggle:after {
+  transform-origin: center;
+}
+.plus-minus-toggle.collapsed:after {
+  transform: rotate(90deg);
+}
+.plus-minus-toggle.collapsed:before {
+  transform: rotate(180deg);
+}

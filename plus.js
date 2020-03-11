@@ -1,4 +1,5 @@
-$('.container a').click(function () {
+$('.bloc a').click(function () {
+  $('.plus-minus-toggle').addClass('collapsed');
   $(this).find('.plus-minus-toggle').toggleClass('collapsed');
-  $(this).parent().toggleClass('active');
+  // $(this).parent().toggleClass('active');
 });
