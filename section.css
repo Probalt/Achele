@@ -1,68 +1,153 @@
-#section2 {
+#discover {
   width: 65vw;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 }
+
 
 .bloc {
-  height: 100vh;
+  height: 110vh;
   margin-top: 100px;
-  margin-bottom: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
 }
-
 #conseil {
   margin-right: 50px;
   margin-left: 50px;
   width: 50%;
+  align-self: flex-start;
 }
-
 #prez {
   width: 50%;
   align-self: flex-end;
   margin-left: 50px;
+  font-size: 1.3em;
+  line-height: 2;
 }
 
-#prez p {
-  font-size: 1.5em;
-}
 
-#valeurs-expli {
-  font-size: 1.5em;
-  width: 60%;
-  margin-right: 90px;
+.bloc2 {
+  height: 50vh;
+  margin-top: 100px;
+  display: flex;
+}
+#investissement {
+  margin-right: 50px;
+  margin-left: 50px;
   align-self: flex-start;
 }
 
-#valeurs-expli p {
-  font-size: 18px;
-  color: rgb(70,70,70);
-}
 
-#investissement {
-  margin-left: 50px;
-  width: 40%;
-  align-self: flex-end;
-  text-align: right;
-}
-
-#investissement a {
-  padding-right: 0px; 
-}
-
-/*#section3 {
+.bloc3 {
   height: 100vh;
-  width: 100vw;
+  margin-top: 100px;
+}
+#valeurs-expli {
+  font-size: 1em;
+  line-height: 2;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+#ve1 {
+  align-self: flex-end;
+  width: 30%;
+  text-align: right;
+}
+#ve2 {
+  align-self: center;
+  width: 30%;
+  text-align: center;
+}
+#ve3 {
+  align-self: flex-start;
+  width: 30%;
+  text-align: left;
 }
 
+
+.bloc4 {
+  height: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.photo {
+  margin-left: 50px;
+  align-self: flex-start;
+}
+.quote {
+  margin-right: 50px;
+  align-self: flex-end;
+}
+.quote p {
+  display: inline;
+  font-size: 1.3em;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  line-height: 2;
+}
+.quote span {
+  /*font-family: 'Catamaran', sans-serif;*/
+  /*font-family: 'Kaushan Script', cursive;*/
+  font-family: 'Alef', sans-serif;
+  /*font-family: 'Coustard', serif;*/
+  /*font-family: 'Palanquin Dark', sans-serif;*/
+  font-size: 3em;
+}
+
+.bloc5 {
+  height: 100vh;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+#cv1 {
+  width: 45%;
+  align-self: flex-end;
+}
+#cv2 {
+  width: 45%;
+  align-self: flex-start;
+}
+#cv3 {
+  width: 45%;
+  align-self: flex-end;
+}
+#cv4 {
+  width: 45%;
+  align-self: flex-start;
+}
+
+.bloc6 {
+  height: 50vh;
+  text-align: center;
+  /*margin-top: 100px;*/
+  margin-bottom: 100px;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;*/
+}
+/*.bloc6 img, */.bloc6 div {
+  margin-bottom: 100px;
+}
+/*#logo2 {
+  margin-left: 50px;
+}*/
+#contact {
+  margin-top: 100px;
+}
+
+
+/*
 .scroll2 a span {
   position: absolute;
   margin-left: -12px;
@@ -77,10 +162,6 @@
   box-sizing: border-box;
 }*/
 
-/*.container {
-  margin: 0 auto;
-  width: 50%;
-}*/
 
 .accordion a {
   position: relative;

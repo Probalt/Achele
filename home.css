@@ -1,36 +1,3 @@
-@import "section.css";
-
-html {
-  scroll-behavior: smooth;
-}
-
-html > body {
-/*  font-family: 'Varela Round', sans-serif;
-  font-family: 'Varela', sans-serif;
-  font-family: 'Comfortaa', cursive;
-  font-family: 'Sen', sans-serif;*/
-  font-family: 'Poppins', sans-serif;
-}
-
-h1,
-p a {
-  color: #8B3421;
-}
-
-p a:hover {
-  text-decoration: none;
-  color: #8B3421;
-}
-
-section {
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-  border-bottom: solid 2px #8B3421;
-  display: table;
-  font-weight: 500;
-  font-size: 20px;
-}
-
 #home {
   background-size: cover; 
   height: 100vh;

@@ -1,0 +1,58 @@
+@import "section.css";
+@import "footer.css";
+@import "home.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+html > body {
+/*  font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela', sans-serif;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Sen', sans-serif;*/
+  /*font-family: 'Catamaran', sans-serif;*/
+  /*font-family: 'Kaushan Script', cursive;*/
+  /*font-family: 'Alef', sans-serif;*/
+  /*font-family: 'Coustard', serif;*/
+  /*font-family: 'Palanquin Dark', sans-serif;*/
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: #8B3421;
+}
+h3 {
+  color: #8B3421;
+}
+p a {
+  color: #8B3421;
+}
+
+p a:hover {
+  text-decoration: none;
+  color: #8B3421;
+}
+.black {
+  color: black;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+button p {
+  padding: 0px 20px 0px 20px;
+  font-size: 1.3em;
+  border-right: solid 2px #8B3421;
+  border-left: solid 2px #8B3421;
+  transition: 1s;
+}
+button p:hover{
+  border-top: solid 2px #8B3421;
+  border-bottom: solid 2px #8B3421;
+  border-right: none;
+  border-left: none;
+  padding: 20px 0px 20px 0px;
+}
