@@ -127,23 +127,13 @@
 }
 
 .bloc6 {
-  height: 50vh;
+  height: 100%;
   text-align: center;
-  /*margin-top: 100px;*/
-  margin-bottom: 100px;
-  /*display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;*/
+  margin-bottom: 200px;
 }
-/*.bloc6 img, */.bloc6 div {
-  margin-bottom: 100px;
-}
-/*#logo2 {
-  margin-left: 50px;
-}*/
 #contact {
-  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 100%;
 }
 
 
