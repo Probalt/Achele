@@ -1,12 +1,23 @@
 footer {
-  background-color: #1A1A1A;
+  background: linear-gradient(to left, #282828, #1A1A1A);
   height: 10vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: white;
+  font-size: 0.7em;
 }
 footer img {
   width: 100px;
   height: 35px;
+}
+footer p {
+  margin: 0px;
+}
+i {
+  color: white;
+  font-size: 1.5em;
+}
+.connecter {
+	text-align: center;
 }

@@ -43,16 +43,17 @@ button {
   border: none;
 }
 button p {
-  padding: 0px 20px 0px 20px;
+  padding: 20px 0px 20px 0px;
   font-size: 1.3em;
-  border-right: solid 2px #8B3421;
-  border-left: solid 2px #8B3421;
-  transition: 1s;
-}
-button p:hover{
   border-top: solid 2px #8B3421;
   border-bottom: solid 2px #8B3421;
-  border-right: none;
-  border-left: none;
-  padding: 20px 0px 20px 0px;
+  transition: 0.5s;
+}
+button p:hover{
+  padding: 30px 20px 30px 20px;
+  border-right: solid 2px #8B3421;
+  border-left: solid 2px #8B3421;
+  letter-spacing: 2px;
+  border-bottom: none;
+  border-top: none;
 }
