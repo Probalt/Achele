@@ -22,10 +22,13 @@
   margin-right: 10%;
   text-align: right;
 }
-
 #valeurs p {
   font-size: 1.3em;
   font-weight: lighter;
+}
+#valeurs a {
+  text-decoration: none;
+  color: white;
 }
 
 #scroll {

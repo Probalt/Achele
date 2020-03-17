@@ -9,42 +9,37 @@
 }
 
 
-.bloc {
-  height: 110vh;
+.bloc1 {
   margin-top: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  text-align: justify;
 }
-#conseil {
-  margin-right: 50px;
-  margin-left: 50px;
-  width: 50%;
-  align-self: flex-start;
-}
-#prez {
-  width: 50%;
-  align-self: flex-end;
-  margin-left: 50px;
+.phrase {
   font-size: 1.3em;
   line-height: 2;
 }
 
 
 .bloc2 {
-  height: 50vh;
   margin-top: 100px;
   display: flex;
+  justify-content: space-between;
+}
+#conseil {
+  margin-right: 100px;
+  margin-left: 50px;
+  width: 50%;
 }
 #investissement {
-  margin-right: 50px;
   margin-left: 50px;
-  align-self: flex-start;
+  width: 50%;
+}
+#investissement a {
+  padding-right: 0px;
+  padding-left: 16px;
 }
 
 
 .bloc3 {
-  height: 100vh;
   margin-top: 100px;
 }
 #valeurs-expli {
@@ -72,27 +67,30 @@
 
 
 .bloc4 {
-  height: 100%;
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
-.photo {
+#photo {
   margin-left: 50px;
   align-self: flex-start;
 }
+#photo img {
+  border-radius: 4px;
+}
 .quote {
   margin-right: 50px;
+  margin-bottom: 50px;
   align-self: flex-end;
 }
 .quote p {
   display: inline;
   font-size: 1.3em;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
   line-height: 2;
+/*  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);*/
 }
 .quote span {
   /*font-family: 'Catamaran', sans-serif;*/
@@ -101,38 +99,44 @@
   /*font-family: 'Coustard', serif;*/
   /*font-family: 'Palanquin Dark', sans-serif;*/
   font-size: 3em;
+  line-height: 0; 
 }
 
 .bloc5 {
-  height: 100vh;
   margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
 }
 #cv1 {
   width: 45%;
-  align-self: flex-end;
+  align-self: flex-start;
 }
 #cv2 {
   width: 45%;
-  align-self: flex-start;
+  align-self: flex-end;
 }
 #cv3 {
   width: 45%;
-  align-self: flex-end;
+  align-self: flex-start;
 }
 #cv4 {
   width: 45%;
-  align-self: flex-start;
+  align-self: flex-end;
 }
 
+
 .bloc6 {
-  height: 100%;
+  margin-top: 100px;
   text-align: center;
   margin-bottom: 200px;
 }
+.bloc6 img {
+  width: 100px;
+}
 #contact {
   margin-bottom: 100px;
+  margin-top: 50px;
   height: 100%;
 }
 
