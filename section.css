@@ -9,8 +9,8 @@
 }
 
 
-.bloc1 {
-  margin-top: 100px;
+#bloc1 {
+  padding-top: 100px;
   text-align: justify;
 }
 .phrase {
@@ -19,8 +19,8 @@
 }
 
 
-.bloc2 {
-  margin-top: 100px;
+#bloc2 {
+  padding-top: 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -33,14 +33,10 @@
   margin-left: 50px;
   width: 50%;
 }
-#investissement a {
-  padding-right: 0px;
-  padding-left: 16px;
-}
 
 
-.bloc3 {
-  margin-top: 100px;
+#bloc3 {
+  padding-top: 50px;
 }
 #valeurs-expli {
   font-size: 1em;
@@ -66,8 +62,8 @@
 }
 
 
-.bloc4 {
-  margin-top: 100px;
+#bloc4 {
+  padding-top: 100px;
   margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
@@ -102,8 +98,8 @@
   line-height: 0; 
 }
 
-.bloc5 {
-  margin-top: 100px;
+#bloc5 {
+  padding-top: 100px;
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
@@ -126,12 +122,12 @@
 }
 
 
-.bloc6 {
-  margin-top: 100px;
+#bloc6 {
+  padding-top: 100px;
   text-align: center;
   margin-bottom: 200px;
 }
-.bloc6 img {
+#bloc6 img {
   width: 100px;
 }
 #contact {

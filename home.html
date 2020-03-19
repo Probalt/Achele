@@ -12,211 +12,427 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="application.css">
   <link rel="icon" href="./images/just-logo.png">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 
 <body>
-  <div id="home" style="background-image: url(./images/home.jpg);">
-    <div id="home-content">
-      <div id="logo" data-aos="zoom-in" data-aos-duration="1000">
-        <img src="./images/logo-blanc-zoom.png" alt="achele-logo">
-      </div>
-      <div id="valeurs">
-        <a href="#ve1"><p class="mb-4" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">Précision</p></a>
-        <a href="#ve2"><p class="mb-4" data-aos="fade-right" data-aos-delay="2000" data-aos-duration="1000">Ouverture</p></a>
-        <a href="#ve3"><p class="mb-4" data-aos="fade-right" data-aos-delay="3000" data-aos-duration="1000">Bienveillance</p></a>
-      </div>
-    </div>
-    <div id="scroll" class="demo">
-      <a href="#discover"><span></span></a>
-    </div>
+
+  <div id="language">
+    <a class="tab" href="#" title="Switch to English" onclick="return false">🇬🇧</a>
+    <a class="tab nodisplay" href="#" title="Switch to French" onclick="return false">🇫🇷</a>
   </div>
 
-  <div id="discover">
+  <div class="tab" id="French">
 
-    <div class="bloc1">
-      <div class="phrase">
-        <p>Achèle (HL) est une société par actions simplifiée créée en 2010. L’entreprise, détenue à 100% par <a href="#photo">Hugues Le Bret</a>, est aussi engagée dans l’association <a href="https://www.wakeupcafe.org/" target="blank">Wake-up Café</a> et le projet Wu. Achèle est spécialisée dans l'accompagnement des entreprises de croissance et des grands groupes.</p>
+      <div id="home" style="background-image: url(./images/home.jpg);">
+        <div id="home-content">
+          <div id="logo" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="./images/logo-blanc-zoom.png" alt="achele-logo">
+          </div>
+          <div id="valeurs">
+            <a href="#bloc3"><p class="mb-4" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">Précision</p></a>
+            <a href="#bloc3"><p class="mb-4" data-aos="fade-right" data-aos-delay="2000" data-aos-duration="1000">Ouverture</p></a>
+            <a href="#bloc3"><p class="mb-4" data-aos="fade-right" data-aos-delay="3000" data-aos-duration="1000">Bienveillance</p></a>
+          </div>
+        </div>
+        <div id="scroll" class="demo">
+          <a href="#discover"><span></span></a>
+        </div>
       </div>
-    </div>
 
-<!--     <div class="scroll2">
-      <a href="#section3"><span></span></a>
-    </div> -->
+      <div id="discover">
 
-    <div class="bloc2">
-      <div id="conseil">
-        <h1>Conseil</h1>
-        <div class="accordion">
-          <div class="accordion-item">
-            <a>Stratégie <div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p>Il y en a plusieurs, elles ne se dupliquent pas et demandent un sens du contexte et du timing souvent ignoré par les marchands de benchmark.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <a>Situations complexes <div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p>Personne ne sait d’où viendra la prochaine crise qui par construction sera une saloperie par son contenu, son ampleur, sa médiatisation. Mieux vaut avoir huilé les rouages de sa gestion avant d’entrer dans la lessiveuse.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <a>Communication <div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p>Aucun outil ne remplace la relation, elle doit être orchestrée, soutenue, bienveillante. Seule la confiance crée le lien.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <a>Gouvernance <div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p>L’articulation du fonctionnement de l’organe de supervision est un art, celui de la diplomatie. Il faut savoir orchestrer l’entente cordiale, maîtriser les rapports de force, organiser la répartition des rôles, retenir les stratégies les plus adaptées. Seules l’indépendance et la compétence peuvent guider la vision au long-court, doper l’efficacité, assurer le contrôle et fluidifier l’organisation des équipes.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <a>Pilotage <div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p>L’animation des équipes, l’organisation des entités, le fonctionnement interne et le pilotage demandent autant d’implication que de sens tactique, de vision que de précision. Chacun est dépositaire de la valeur qu’il apporte.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <a>Financements <div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p>Achèle accompagne des entreprises dans leur stratégie de capital, depuis la création, avant même les séries A, lors du financement de la croissance et jusqu’à l’éventuelle cession. Achèle accompagne notamment les fonds <a href="https://p3vc.com/" target="blank">Portag3</a> (Fintech) et <a href="http://www.ringcp.com/home" target="blank">Ring Capital</a> pour leurs investissements.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <a>Acquisitions <div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p>Achèle trouve des solutions au cas par cas aux entreprises qui lui sont proches. L’exemple le plus emblématique est celui de la cession de <a href="https://nickel.eu/fr/" target="blank">Nickel</a> à <a href="https://group.bnpparibas/" target="blank">BNP Paribas</a> en 2017. Le premier mandat était la cession de Butterfly au groupe Henner en 2011.</p>
-            </div>
+        <div id="bloc1">
+          <div class="phrase">
+            <p>Achèle (HL) est une société par actions simplifiée créée en 2010. L’entreprise, détenue à 100% par <a href="#bloc4">Hugues Le Bret</a> accompagne de ses avis et conseils des entreprises de toutes tailles dans leur stratégie, leur influence et leur gouvernance. Achèle intervient en conseil ou en investisseur.</p>
           </div>
         </div>
-      </div>
-      <div id="investissement">
-        <h1>Investissement</h1>
-        <div class="accordion">
-          <div class="accordion-item">
-            <a>Fintech <div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p><a href="https://nickel.eu/" target="blank">Nickel</a>, <a href="https://www.pretto.fr/"target="blank">Pretto</a>, <a href="https://www.paylead.fr/" target="blank">Paylead</a>, <a href="https://www.firmfunding.com/" target="blank">Firmfunding</a>, <a href="https://www.pixpay.fr/" target="blank">Pixpay</a> et <a href="https://p3vc.com/" target="blank">Portag3</a>.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <a>Biotech <div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p><a href="http://algotx.com/" target="blank">Algotherapeutix</a>, <a href="https://skindermic.com/" target="blank">Skindermic</a>, et <a href="https://www.cible-clinic.com/" target="blank">Cible</a>.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <a>Food <div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p><a href="https://popchef.com/" target="blanck">PopChef</a>.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <a>Marketing <div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p><a href="https://www.hivency.com/fr/" target="blank">Hivency</a> et <a href="https://www.jem-paris.com/" target="blank">JEM</a>.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="bloc3">
-      <div id="valeurs-expli">
-        <div id="ve1">
-          <h1 class="black">Précision</h1 class="black"><p>Efficacité des analyses et des recommandations, perspicacité, sens de l’engagement.</p>
+        <div id="bloc2">
+          <div id="conseil">
+            <h1>Conseil</h1>
+            <div class="accordion">
+              <div class="accordion-item">
+                <a>Stratégie <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Il y en a plusieurs, elles ne se dupliquent pas et demandent un sens du contexte et du timing souvent ignoré par les marchands de benchmark.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Situations complexes <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Personne ne sait d’où viendra la prochaine crise qui par construction sera une saloperie par son contenu, son ampleur, sa médiatisation. Mieux vaut avoir huilé les rouages de sa gestion avant d’entrer dans la lessiveuse.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Communication <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Aucun outil ne remplace la relation, elle doit être orchestrée, soutenue, bienveillante. Seule la confiance crée le lien.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Gouvernance <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>L’articulation du fonctionnement de l’organe de supervision est un art, celui de la diplomatie. Il faut savoir orchestrer l’entente cordiale, maîtriser les rapports de force, organiser la répartition des rôles, retenir les stratégies les plus adaptées. Seules l’indépendance et la compétence peuvent guider la vision au long-court, doper l’efficacité, assurer le contrôle et fluidifier l’organisation des équipes.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Pilotage <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>L’animation des équipes, l’organisation des entités, le fonctionnement interne et le pilotage demandent autant d’implication que de sens tactique, de vision que de précision. Chacun est dépositaire de la valeur qu’il apporte.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Financements <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Achèle accompagne des entreprises dans leur stratégie de capital, depuis la création, avant même les séries A, lors du financement de la croissance et jusqu’à l’éventuelle cession. Achèle accompagne notamment les fonds <a href="https://p3vc.com/" target="blank">Portag3</a> (Fintech) et <a href="http://www.ringcp.com/home" target="blank">Ring Capital</a> pour leurs investissements.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Acquisitions <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Achèle trouve des solutions au cas par cas aux entreprises qui lui sont proches. L’exemple le plus emblématique est celui de la cession de <a href="https://nickel.eu/fr/" target="blank">Nickel</a> à <a href="https://group.bnpparibas/" target="blank">BNP Paribas</a> en 2017. Le premier mandat était la cession de Butterfly au groupe Henner en 2011.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="investissement">
+            <h1>Investissement</h1>
+            <div class="accordion">
+              <div class="accordion-item">
+                <a>Fintech <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p><a href="https://nickel.eu/" target="blank">Nickel</a>, <a href="https://www.pretto.fr/"target="blank">Pretto</a>, <a href="https://www.paylead.fr/" target="blank">Paylead</a>, <a href="https://www.firmfunding.com/" target="blank">Firmfunding</a>, <a href="https://www.pixpay.fr/" target="blank">Pixpay</a> et <a href="https://p3vc.com/" target="blank">Portag3</a>.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Biotech <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p><a href="http://algotx.com/" target="blank">Algotherapeutix</a>, <a href="https://skindermic.com/" target="blank">Skindermic</a>, et <a href="https://www.cible-clinic.com/" target="blank">Cible</a>.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Food <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p><a href="https://popchef.com/" target="blanck">PopChef</a>.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Marketing <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p><a href="https://www.hivency.com/fr/" target="blank">Hivency</a> et <a href="https://www.jem-paris.com/" target="blank">JEM</a>.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Associatif <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p><a href="https://www.wakeupcafe.org/" target="blank">Wake-up Café</a>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="ve2">
-          <h1 class="black">Ouverture</h1 class="black"><p>Raisonnement à plat, sens de l’innovation, lien avec de nombreux réseaux : investissement, communication, technologies et finance.</p>
-        </div>
-        <div id="ve3">
-          <h1 class="black">Bienveillance</h1 class="black"><p>Accompagnement dans les hauts comme dans les bas, quelles que soient les phases de la vie de l’entreprise.</p>
-        </div>
-      </div>
-    </div>
 
-    <div class="bloc4">
-      <div class="quote">
-        <span>" </span><p>Je navigue depuis plus de trente ans entre les entreprises de croissance et les grands groupes, entre les métiers de la communication et ceux de la finance.</p>
-      </div>
-      <div id="photo">
-        <img src="./images/HLB.png" alt="Hugues Le Bret">
-      </div>
-    </div>
+        <div id="bloc3">
+          <div id="valeurs-expli">
+            <div id="ve1">
+              <h1 class="black">Précision</h1 class="black"><p>Efficacité des analyses et des recommandations, perspicacité, sens de l’engagement.</p>
+            </div>
+            <div id="ve2">
+              <h1 class="black">Ouverture</h1 class="black"><p>Raisonnement à plat, sens de l’innovation, lien avec de nombreux réseaux : investissement, communication, technologies et finance.</p>
+            </div>
+            <div id="ve3">
+              <h1 class="black">Bienveillance</h1 class="black"><p>Accompagnement dans les hauts comme dans les bas, quelles que soient les phases de la vie de l’entreprise.</p>
+            </div>
+          </div>
+        </div>
 
-    <div class="bloc5">
-      <div id="cv1">
-        <div class="accordion">
-          <div class="accordion-item">
-            <a><h2 class="black">Première décennie</h2 class="black"><h3>1987-1999</h3><div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p>Analyste financier, journaliste financier, puis conseil en communication financière chez Publicis. Créateur de ABW en 1993 vendue à Havas en 1996. Co-fondateur en 1997 de l’association <a href="http://www.croissanceplus.com/" target="blank">Croissance Plus</a>. DG des activités de communication financière de Havas ensuite. Nombreuses opérations de M&A et d’IPO gérées dont fusion Axa-UAP, privatisation de France Télécom ou de CNP Assurances, nombreuses IPO d’entreprises de croissance dont Business Objects (Nasdaq puis Paris), Devoteam, etc. Blocage sur de l’OPA de BNP sur Société Générale.</p>
-            </div>
+        <div id="bloc4">
+          <div class="quote">
+            <span>" </span><p>Je navigue depuis plus de trente ans entre les entreprises de croissance et les grands groupes, entre les métiers de la communication et ceux de la finance.</p>
+          </div>
+          <div id="photo">
+            <img src="./images/HLB.png" alt="Hugues Le Bret">
           </div>
         </div>
-      </div>
-      <div id="cv2">
-        <div class="accordion">
-          <div class="accordion-item">
-            <a><h2 class="black">Seconde décennie</h2 class="black"><h3>1999-2009</h3><div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p>Membre du Comité Exécutif du Groupe Société Générale, directeur de la communication interne et externe, directeur de l’innovation et membre du comité de pilotage des activités Internet du groupe.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="cv3">
-        <div class="accordion">
-          <div class="accordion-item">
-            <a><h2 class="black">Troisième décennie</h2 class="black"><h3>2009-2019</h3><div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p>CEO de <a href="https://www.boursorama.com/" target="blank">Boursorama</a>. Fondateur de Achèle SAS (2011) et Co-fondateur de Nickel (2012). Cession de Nickel à BNP Paribas en 2017.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="cv4">
-        <div class="accordion">
-          <div class="accordion-item">
-            <a><h2 class="black">Quatrième décennie</h2 class="black"><h3>Actuelle</h3><div class="plus-minus-toggle collapsed"></div></a>
-            <div class="content">
-              <p>Président du conseil de surveillance de <a href="https://nickel.eu/fr/" target="blank">Nickel</a> et président de Achèle SAS.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="bloc6">
-      <img src="./images/just-logo.png" alt="logo-achele">
-      <div id="contact">
-        <form action="mailto:contact@achele.eu" method="post" enctype="text/plain">
-          <button><p>Contacter Hugues</p></button>
-        </form>
+        <div id="bloc5">
+          <div id="cv1">
+            <div class="accordion">
+              <div class="accordion-item-cv">
+                <a><h2 class="black">Première décennie</h2 class="black"><h3>1987-1999</h3><div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Analyste financier, journaliste financier, puis conseil en communication financière chez Publicis. Créateur de ABW en 1993 vendue à Havas en 1996. Co-fondateur en 1997 de l’association <a href="http://www.croissanceplus.com/" target="blank">Croissance Plus</a>. DG des activités de communication financière de Havas ensuite. Nombreuses opérations de M&A et d’IPO gérées dont fusion Axa-UAP, privatisation de France Télécom ou de CNP Assurances, nombreuses IPO d’entreprises de croissance dont Business Objects (Nasdaq puis Paris), Devoteam, etc. Blocage sur de l’OPA de <a href="https://group.bnpparibas/" target="blank">BNP</a> sur Société Générale.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="cv2">
+            <div class="accordion">
+              <div class="accordion-item-cv">
+                <a><h2 class="black">Seconde décennie</h2 class="black"><h3>1999-2009</h3><div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Membre du Comité Exécutif du Groupe Société Générale, directeur de la communication interne et externe, directeur de l’innovation et membre du comité de pilotage des activités Internet du groupe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="cv3">
+            <div class="accordion">
+              <div class="accordion-item-cv">
+                <a><h2 class="black">Troisième décennie</h2 class="black"><h3>2009-2019</h3><div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>CEO de Boursorama. Fondateur de Achèle SAS (2011) et Co-fondateur de Nickel (2012). Cession de Nickel à <a href="https://group.bnpparibas/" target="blank">BNP Paribas</a> en 2017.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="cv4">
+            <div class="accordion">
+              <div class="accordion-item-cv">
+                <a><h2 class="black">Quatrième décennie</h2 class="black"><h3>Actuelle</h3><div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Président du conseil de surveillance de <a href="https://nickel.eu/fr/" target="blank">Nickel</a> et président de Achèle SAS.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="bloc6">
+          <img src="./images/just-logo.png" alt="logo-achele">
+          <div id="contact">
+            <form action="mailto:contact@achele.eu" method="post" enctype="text/plain">
+              <button><p>Contacter Hugues</p></button>
+            </form>
+          </div>
+          <p class="phrase">Aider à grandir - Actionner tous les leviers.</p>
+        </div>
       </div>
-      <p class="phrase">Aider à grandir - Actionner tous les leviers.</p>
-    </div>
+
+      <footer>
+        <a href="#home"><img id="logo" src="./images/logo-blanc-zoomm.png" alt="Achele-logo"></a>
+        <div class="connecter">
+          <p class="pb-2">connecter</p>
+          <a href="https://www.linkedin.com/in/hlebret/?originalSubdomain=fr" target="blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="contacter">
+          <p class="pb-2">contacter</p>
+          <p>contact@achele.eu</p>
+        </div>
+      </footer>
 
   </div>
 
-  <footer>
-    <a href="#home"><img id="logo" src="./images/logo-blanc-zoomm.png" alt="Achele-logo"></a>
-    <div class="connecter">
-      <p class="pb-2">connecter</p>
-      <a href="https://www.linkedin.com/in/hlebret/?originalSubdomain=fr" target="blank"><i class="fab fa-linkedin"></i></a>
-    </div>
-    <div class="contacter">
-      <p class="pb-2">contacter</p>
-      <p>contact@achele.eu</p>
-    </div>
-  </footer>
+  <div class="tab nodisplay" id="English">
+    
+      <div id="home-en" style="background-image: url(./images/home.jpg);">
+        <div id="home-content">
+          <div id="logo" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="./images/logo-blanc-zoom.png" alt="achele-logo">
+          </div>
+          <div id="valeurs">
+            <a href="#bloc3-en"><p class="mb-4" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">Precision</p></a>
+            <a href="#bloc3-en"><p class="mb-4" data-aos="fade-right" data-aos-delay="2000" data-aos-duration="1000">Openness</p></a>
+            <a href="#bloc3-en"><p class="mb-4" data-aos="fade-right" data-aos-delay="3000" data-aos-duration="1000">Goodwill</p></a>
+          </div>
+        </div>
+        <div id="scroll" class="demo">
+          <a href="#discover-en"><span></span></a>
+        </div>
+      </div>
+
+      <div id="discover-en">
+
+        <div id="bloc1-en">
+          <div class="phrase">
+            <p>Achèle (HL) is a joint-stock company created in 2010. The enterprise, 100% owned by <a href="#bloc4">Hugues Le Bret</a> helps with opinions and advise companies of all sizes in their strategy, their influence and their governance. Achèle operates in consulting or in investment.</p>
+          </div>
+        </div>
+
+        <div id="bloc2-en">
+          <div id="conseil">
+            <h1>Consulting</h1>
+            <div class="accordion">
+              <div class="accordion-item">
+                <a>Strategy <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>There are many, they don't duplicate and they require a good sense of timing and context usually ignored by benchmarkers.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>complex situations <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>No one knows from where will come the next crisis, which will be, intrinsically, a virus from its content, its scale, its media coverage. You better have properly greesed the wheels of your management before entering the washing machine.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Communication <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>No tool can replace relationship. It has to be orchestrated, sustained, benevolent. Only trust can build connection.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Governance <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>The articulation of the supervisory body's operations is an art, the art of diplomaty. One must know how to orchestrate cordial agreement, master power relations, organise division of roles, retain the most suitable strategies. Only independence and skills can guide to a long-run vision, dope efficiency, ensure control and smoothen team organisation.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Pilotage <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Team animation, entity organisation, internal functionning and pilotage require as much involvment as tactical sense, as much vision as precision.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Financing <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Achèle helps companies in their capital strategies, from the creation, during the finnancing and growth, to the potential cession. Achèle supports notably the funds <a href="https://p3vc.com/" target="blank">Portag3</a> (Fintech) and <a href="http://www.ringcp.com/home" target="blank">Ring Capital</a> for their investments.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Acquisitions <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Achèle finds tailored and specific solutions to the companies on its side. The most relevent example is the transfer of <a href="https://nickel.eu/fr/" target="blank">Nickel</a> to <a href="https://group.bnpparibas/" target="blank">BNP Paribas</a> in 2017. The first mandate was the cession of Butterfly to the Henner group in 2011.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="investissement">
+            <h1>Investment</h1>
+            <div class="accordion">
+              <div class="accordion-item">
+                <a>Fintech <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p><a href="https://nickel.eu/" target="blank">Nickel</a>, <a href="https://www.pretto.fr/"target="blank">Pretto</a>, <a href="https://www.paylead.fr/" target="blank">Paylead</a>, <a href="https://www.firmfunding.com/" target="blank">Firmfunding</a>, <a href="https://www.pixpay.fr/" target="blank">Pixpay</a> and <a href="https://p3vc.com/" target="blank">Portag3</a>.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Biotech <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p><a href="http://algotx.com/" target="blank">Algotherapeutix</a>, <a href="https://skindermic.com/" target="blank">Skindermic</a>, and <a href="https://www.cible-clinic.com/" target="blank">Cible</a>.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Food <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p><a href="https://popchef.com/" target="blanck">PopChef</a>.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Marketing <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p><a href="https://www.hivency.com/fr/" target="blank">Hivency</a> and <a href="https://www.jem-paris.com/" target="blank">JEM</a>.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <a>Charity <div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p><a href="https://www.wakeupcafe.org/" target="blank">Wake-up Café</a>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="bloc3-en">
+          <div id="valeurs-expli">
+            <div id="ve1">
+              <h1 class="black">Precision</h1 class="black"><p>Efficiency of analyses and recommendations, valuable insight, strong involvment sense.</p>
+            </div>
+            <div id="ve2">
+              <h1 class="black">Openness</h1 class="black"><p>Cold reasoning, innovation thinking, link with many networks: investment, communication, technologies and finance.</p>
+            </div>
+            <div id="ve3">
+              <h1 class="black">Goodwill</h1 class="black"><p>Full support throughout the best and the worst times, no matter the stage of life of the enterprise.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="bloc4-en">
+          <div class="quote">
+            <span>" </span><p>I have been navigating for more than 30 years between the fast growing companies and the big groups, between the communication jobs and the finance ones.</p>
+          </div>
+          <div id="photo">
+            <img src="./images/HLB.png" alt="Hugues Le Bret">
+          </div>
+        </div>
+
+        <div id="bloc5-en">
+          <div id="cv1">
+            <div class="accordion">
+              <div class="accordion-item-cv">
+                <a><h2 class="black">First decade</h2 class="black"><h3>1987-1999</h3><div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Financial analyst, financial journalist, then consulting in financing communication at Publicis. Creator of ABW in 1993 sold to Havas in 1996. Co-founder in 1997 of the organization <a href="http://www.croissanceplus.com/" target="blank">Croissance Plus</a>. Chief executive of Havas' financial communication activities. Many M&A operations and IPO managed, notably the merger Axa-UAP, privatisation of France Télécom or of CNP Assurances, many growing enterprise IPOs like Business Objects (Nasdaq then Paris), Devoteam, etc. Blockage on <a href="https://group.bnpparibas/" target="blank">BNP</a>'s takeover on Société Générale.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="cv2">
+            <div class="accordion">
+              <div class="accordion-item-cv">
+                <a><h2 class="black">Second decade</h2 class="black"><h3>1999-2009</h3><div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Member of Société Générale's executive committee, internal and external communication director, innovation director and member of the pilotage committee of the group's Internet activities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="cv3">
+            <div class="accordion">
+              <div class="accordion-item-cv">
+                <a><h2 class="black">Third decade</h2 class="black"><h3>2009-2019</h3><div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>CEO of Boursorama. Founder of Achèle (2011) and Co-founder of Nickel (2012). Transfer of Nickel to <a href="https://group.bnpparibas/" target="blank">BNP Paribas</a> in 2017.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="cv4">
+            <div class="accordion">
+              <div class="accordion-item-cv">
+                <a><h2 class="black">Fourth decate</h2 class="black"><h3>Current</h3><div class="plus-minus-toggle collapsed"></div></a>
+                <div class="content">
+                  <p>Director of the supervisory board of <a href="https://nickel.eu/fr/" target="blank">Nickel</a> and director of Achèle.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="bloc6-en">
+          <img src="./images/just-logo.png" alt="logo-achele">
+          <div id="contact">
+            <form action="mailto:contact@achele.eu" method="post" enctype="text/plain">
+              <button><p>Contact Hugues</p></button>
+            </form>
+          </div>
+          <p class="phrase">Help growth - Activate all levers.</p>
+        </div>
+      </div>
+
+      <footer>
+        <a href="#home-en"><img id="logo" src="./images/logo-blanc-zoomm.png" alt="Achele-logo"></a>
+        <div class="connecter">
+          <p class="pb-2">connect</p>
+          <a href="https://www.linkedin.com/in/hlebret/?originalSubdomain=fr" target="blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="contacter">
+          <p class="pb-2">contact</p>
+          <p>contact@achele.eu</p>
+        </div>
+      </footer>
+
+  </div>
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="home.js"></script>
+  <script src="faq.js"></script>
+  <script src="faq-cv.js"></script>
   <script src="plus.js"></script>
+  <script src="plus-cv.js"></script>
+  <script src="language.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
