@@ -66,6 +66,7 @@
   padding-top: 100px;
   margin-bottom: 100px;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -240,4 +241,23 @@
 }
 .plus-minus-toggle.collapsed:before {
   transform: rotate(180deg);
+}
+
+@media (max-width: 710px) {
+  #bloc2 {
+    display: grid;
+    grid-row-gap: 50px;
+  }
+  #bloc3 {
+    padding-top: 100px;
+  }
+  #bloc4 {
+    display: grid;
+    grid-row-gap: 50px;
+    margin: 0px;
+  }
+  #bloc4 #photo {
+    margin: 0px;
+  }
+  #
 }
