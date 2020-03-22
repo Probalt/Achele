@@ -3,9 +3,9 @@
 @import "footer.css";
 @import "home.css";
 
-html {
+/*html {
   scroll-behavior: smooth;
-}
+}*/
 
 html > body {
 /*  font-family: 'Varela Round', sans-serif;

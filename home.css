@@ -63,10 +63,6 @@
   justify-content: center;
 }
 
-#scroll a {
-	transition: 
-}
-
 .demo a {
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
