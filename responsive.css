@@ -1,0 +1,108 @@
+@media (max-width: 710px) {
+  #home #logo img, #home-en #logo img {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 0px;
+  }
+  #home-content #valeurs p {
+    font-size: 1em;
+    color: #8B3421;
+    font-weight: 500;
+  }
+  #scroll a {
+    padding-bottom: 200px;
+  }
+  .phrase {
+    font-size: 1em;
+  }
+  #bloc2, #discover-en #bloc2-en {
+    display: grid;
+    grid-row-gap: 50px;
+  }
+  #bloc2 .plus-minus-toggle, #discover-en #bloc2-en .plus-minus-toggle {
+    margin-left: 20px;
+  }
+  #conseil {
+    margin-right: 0px;
+    text-align: right;
+    margin-left: 170px;
+  }
+  .accordion-item a {
+    padding-right: 0px;
+  }
+  #investissement {
+    margin-left:0px;
+  }
+  #bloc3, #discover-en #bloc3-en {
+    padding-top: 100px;
+  }
+  #valeurs-expli {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #ve1 {
+    align-self: flex-end;
+    width: 60%;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  #ve2 {
+    align-self: center;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #ve3 {
+    align-self: flex-start;
+    width: 60%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  #bloc4, #discover-en #bloc4-en {
+    display: grid;
+    grid-row-gap: 50px;
+    margin: 0px;
+  }
+  #bloc4 #photo, #discover-en #bloc4-en #photo {
+    margin: 0px;
+    text-align: right;
+  }
+  #bloc4 #photo img, #discover-en #bloc4-en #photo img {
+    height: 300px;
+  }
+  .quote {
+    margin: 0px;
+    text-align: justify;
+  }
+  .quote p {
+    font-size: 1em;
+  }
+  #bloc5 .content, #discover-en #bloc5-en .content {
+    padding-left: 0px;
+  }
+  #bloc5 p, #discover-en #bloc5-en p {
+    font-size: 0.8em;
+  }
+  .accordion-item-cv a {
+    padding-right: 0px;
+  }
+  #cv2, #cv4 {
+    text-align: right;
+  }
+  #cv2 p, #cv4 p {
+    text-align: right;
+  }
+  #bloc6 button p, #discover-en #bloc6-en button p {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+}
