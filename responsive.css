@@ -22,16 +22,21 @@
   #bloc2 .plus-minus-toggle, #discover-en #bloc2-en .plus-minus-toggle {
     margin-left: 20px;
   }
-  #conseil {
-    margin-right: 0px;
-    text-align: right;
-    margin-left: 170px;
+  #bloc2 h1 {
+    text-align: center;
   }
   .accordion-item a {
-    padding-right: 0px;
+    padding-left: 50px;
+  }
+  #conseil {
+    text-align: justify;
+    margin:0px;
+    width: 100%;
   }
   #investissement {
-    margin-left:0px;
+    text-align: justify;
+    margin:0px;
+    width: 100%;
   }
   #bloc3, #discover-en #bloc3-en {
     padding-top: 100px;
@@ -82,19 +87,23 @@
     padding-left: 0px;
   }
   #bloc5 p, #discover-en #bloc5-en p {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   .accordion-item-cv a {
     padding-right: 0px;
+    text-align: center;
   }
-  #cv2, #cv4 {
-    text-align: right;
-  }
-  #cv2 p, #cv4 p {
-    text-align: right;
+  #cv1, #cv2, #cv3, #cv4 {
+    align-self: center;
+    text-align: justify;
+    width: 100%;
   }
   #bloc6 button p, #discover-en #bloc6-en button p {
     font-size: 1em;
+  }
+  #bloc6 {
+    margin-bottom: 100px;
+    padding-top: 0px;
   }
   h1 {
     font-size: 1.5em;
