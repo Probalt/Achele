@@ -32,6 +32,8 @@
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
+  text-align: center;
+
 }
 #bloc6-en {
   padding-top: 100px;
