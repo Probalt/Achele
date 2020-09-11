@@ -22,11 +22,11 @@ i {
 	text-align: center;
 }
 
-footer form button {
+footer form {
   padding: 0px;
 }
 
-footer form button p {
+footer form p {
   padding: 0px;
   border-right: 0px;
   border-left: 0px;
@@ -37,7 +37,7 @@ footer form button p {
   font-size: 1em;
 }
 
-footer form button p:hover {
+footer form p:hover {
   padding: 0px 0px;
   border-right: 0px;
   border-left: 0px;
