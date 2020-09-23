@@ -9,8 +9,7 @@
   color: gray;
 }
 #language a:hover {
-  color: gray;
-  font-weight: bold;
+  color: rgb(50,50,50);
   text-decoration: none;
 }
 .nodisplay {
