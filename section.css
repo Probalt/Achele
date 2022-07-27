@@ -75,7 +75,9 @@
   align-self: flex-start;
 }
 #photo img {
-  border-radius: 4px;
+  border-radius: 5px;
+  height: 500px;
+
 /*  -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
   filter: grayscale(100%);*/
 }
